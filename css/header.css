@@ -40,10 +40,9 @@
 
 .navbar {
   text-align: center;
-
   background: #FFF;
-
   border-bottom: 10px solid #0F4C81;
+  
 }
 
 .navbar a {
@@ -60,11 +59,17 @@ a.last-nav {
 }
 
 .nav {
-  margin: 10px 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  flex-wrap: wrap;
 }
 
 .container-navbar {
   height: 100%;
+  padding:0px 15px;
 }
 
 .navbar img {
@@ -72,9 +77,9 @@ a.last-nav {
   padding-top: 10px;
 }
 
-.social-networks {
+/* .social-networks {
   margin-top: 10px;
-}
+} */
 
 .prenstation-title {
   margin-top: 50px;
